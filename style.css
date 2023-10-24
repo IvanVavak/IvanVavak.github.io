@@ -1,0 +1,154 @@
+.container {
+    flex-direction: column;
+    margin: 0 auto;
+    width: 1600px;
+    position:relative;
+  }
+  
+  .top {
+    width: 100%;
+    background-color: silver;
+    padding: 35px 0;
+    display: flex;
+    justify-content: center;
+   }
+  
+  .top a {
+    color: navy;
+    text-align: center;
+    padding-right: 66px;
+    text-decoration: none;
+    font-size: 65px;
+  }
+  
+  #headertitle {
+    position: absolute; 
+    font-family: 'Alegreya', serif;
+    color: #222;
+    left: 100px;
+    top: 370px;
+    font-size: 70px;
+    line-height: 1;
+    letter-spacing: 1px;
+  }
+  
+  #name {
+    font-size: 150px;
+  }
+  .row {
+    display: flex;
+    width:100%;
+    margin-bottom: 100px;
+  }
+  
+  .columnl {
+    width: 42%;
+    background: silver;
+  
+  }
+  
+  .columnr {
+    width: 58%;
+   }
+  #hideimg {
+    overflow: hidden;
+  }
+  
+  img {
+    width: 900px;
+    height: 700px;
+  }
+  
+  #underul {
+    font-family: 'Playpen Sans', cursive;
+    font-size: 30px;
+    color: #222;
+    line-height: 1.5;
+    padding-left: 80px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+  }
+  
+  #underp {
+    padding-top: 30px;
+    padding-left: 50px;
+    font-family: 'Playpen Sans', cursive;
+    font-size: 30px;
+    color: #222;
+    line-height: 1.5;
+    letter-spacing: 1px;
+  }
+  
+   li {
+    list-style-type:square;
+    margin-left: 50px;
+  }
+  
+  p, ul { 
+    font-family: 'Playpen Sans', cursive;
+    color: #222;
+    line-height: 1.5;
+    letter-spacing: 1 px;
+    padding-left: 40px;
+    font-size: 25px;
+  }
+  
+  p {
+    padding-top : 50px;
+  }
+  
+  blockquote::before {
+    content: '”';
+    display: inline-block;
+    transform: rotate(180deg);
+    position: absolute;
+    font-size:280px;
+    top:-280px;
+    left:-40px;
+  } 
+  
+  blockquote {
+    position:relative;
+    color: navy;
+    font-family: 'Alegreya', serif;
+    font-size: 100px;
+    text-align: left;
+    padding-left: 90px;
+    
+  
+  }
+  
+  h2 {
+    font-family: 'Playpen Sans', cursive;
+    color: #222;
+    text-transform: uppercase;
+    align-self: flex-start; 
+    letter-spacing: 1px;
+    padding-left: 40px;
+    padding-top: 40px;
+    font-size: 40px;
+  }
+  
+  h3 {
+    font-family: 'Playpen Sans', cursive;
+    color: #222;
+    align-self: flex-start; 
+    font-size: 35px;
+    letter-spacing: -1px;
+    padding-left: 40px;
+    padding-top: 50px;
+    margin-bottom:-30px;
+  }
+  
+  h4 {
+    font-style: italic;
+    font-family: 'Alegreya', serif;
+    color: #222;
+    align-self: flex-start; 
+    font-size: 25px;
+    padding-left: 40px;
+   }
+  
+  #whitebackground {
+    background: white;
+  }
